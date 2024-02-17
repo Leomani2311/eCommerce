@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+nav {
+  display: flex;
+  /* justify-content: flex-end; */
+}
+
+.navlink {
+  margin: 0 15px; 
+  color: #050505; 
+  text-decoration: none;
+  font-weight: bold;
+  /* display: inline-block; */
+  padding-bottom: 5px; 
+}
+
+navlink:hover {
+  color: #ff0; /* Example color on hover */
+}
+.mani_dev{
+}
+.app_nav_bar{
+  background-color: #fcfbfb; /* Example background color */
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: 50px;
+  border: #3332325e 1px solid;
+}
+
+.navlink_min_div{
+  margin-left: 17em;
+  
+}
+
+.msi_img{
+position: absolute;
+width: 1398px;
+height: 328px;
+left: 263px;
+top: 80px;
+
+}
+.new_products{
+  position: absolute;
+  margin-left: 10em;
+  margin-top: 15em;
+}
+.new_products_link{
+  position: absolute;
+  margin-left: 94em;
+  margin-top: 26em;
+}
+
+.card_grid {
+  margin-left: 15em;
+  display: flex;
+}
+
+.card_1st {
+  
+/* margin-left: 263px; */
+margin-top: 30em;
+  flex: 0;
+  margin-bottom: 0rem;
+}
+
+
+
+/*  Rating */
+.stat-rating{
+  width: 152px;
+  height: 30px;  
+}
+
+
+/* Inside auto layout */
+.star{
+  flex: none;
+  order: 3;
+  align-self: flex-start;
+  flex-grow: 0;
+}
+
