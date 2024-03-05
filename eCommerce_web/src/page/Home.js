@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import { Card,Rate } from "antd";
+import axios from "axios";
 import Header from "../corelayout/Header";
 import Item from "antd/es/list/Item";
 import { Link } from "react-router-dom";
@@ -8,13 +9,25 @@ import Footer from "../corelayout/Footer";
 import { new_product_arrays,Custome_Builds,MSI_Laptops,Desktops,Gaming_Monitors,client_icon} from "../shared/contants";
 const { Meta } = Card;
 
+
 export default function Home() {
   console.log("dsfhsdhfh");
-  const [rating, setRating] = useState(0);
+  const [data, setData] = useState([]);
+  const [productData, setProductData] = useState([]);
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get('http://localhost:3002/api/data');
+        setProductData(response.data);
+        console.log("manikandan....",productData)
+        console.log("manikandan____",response.data[0].description)
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
 
-  const handleStarclick = index => {
-    setRating(index + 1);
-  };
+    fetchData();
+  }, []);
 
   return (
     <>
