@@ -430,6 +430,7 @@ const address_footer_text = [
   { address_text: "E-mail: shop@email.com" },
 ];
 
+
 export {
   new_product_arrays,
   Custome_Builds,

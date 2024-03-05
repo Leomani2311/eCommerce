@@ -100,6 +100,7 @@ export default function All_prodcts() {
           src="http://localhost:3000/images/title_image.png"
         />
       </div>
+      
       <div className="container"> 
         <div> Back </div>
       <Sider>

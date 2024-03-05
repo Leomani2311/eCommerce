@@ -14,8 +14,8 @@ const About_Product = props => {
     <>
       <div>
         <div className="about_page">
-          <h1>{props.productid.product_name}</h1>
-          <p>{props.productid.description}</p>
+          <h1 className="Product_name">{props.productid.product_name}</h1>
+          <p className="product_description">{props.productid.description}</p>
         </div>
         <div className="about_page_image">
           <div className="icon-about">
@@ -46,13 +46,20 @@ const Details = props => {
     <>
       <div>
         <div className="details_page">
-          <h1>{props.productid.product_name}</h1>
+          <h1 className="Product_name_details">{props.productid.product_name}</h1>
+         
           {Object.entries(detailsObject).map((data, i) => (
-            <p key={i}>{data}</p>
+             <div className="product-details-p">
+              <ul>
+              <li key={i} >{data}</li>
+              </ul>
+            
+            </div>
           ))}
+          
         </div>
         <div className="details_page_image">
-        <div className="icon-about">
+        <div className="icon-details">
             <img className="icon-about-1" src="http://localhost:3000/images/icon/like.png" />
             <img className="icon-about-2" src="http://localhost:3000/images/icon/benchmar.png" />
             <img className="icon-about-3" src="http://localhost:3000/images/icon/shared.png" />
@@ -68,8 +75,19 @@ const Spaces = props => {
   console.log("Space----props", props.productid);
   return (
     <>
-      <div className="container">
-        <h1>Space</h1>
+      <div>
+        <div className="about_page">
+          <h1 className="Product_name">{props.productid.product_name}</h1>
+          <p className="product_description">{props.productid.description}</p>
+        </div>
+        <div className="about_page_image">
+          <div className="icon-about">
+            <img className="icon-about-1" src="http://localhost:3000/images/icon/like.png" />
+            <img className="icon-about-2" src="http://localhost:3000/images/icon/benchmar.png" />
+            <img className="icon-about-3" src="http://localhost:3000/images/icon/shared.png" />
+          </div>
+          <img className="about_page_in_image" src={props.productid.image} />
+        </div>
       </div>
     </>
   );

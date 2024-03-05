@@ -10,5 +10,4 @@ const data_Rows = {
 
 export{
     data_Rows,
-
 }
