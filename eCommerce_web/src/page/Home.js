@@ -7,6 +7,8 @@ import { Link } from "react-router-dom";
 import All_prodcts from "./Allproducts";
 import Footer from "../corelayout/Footer";
 import { new_product_arrays,Custome_Builds,MSI_Laptops,Desktops,Gaming_Monitors,client_icon} from "../shared/contants";
+
+import { ROUTE } from "../Routes/Routes";
 const { Meta } = Card;
 
 
@@ -33,11 +35,11 @@ export default function Home() {
     <>
       <Header />
       <div className="main_div">
-        <img className="msi_img" src="http://localhost:3000/images/msi.png" />
+        <img className="msi_img container" src="http://localhost:3000/images/msi.png" />
       </div>
       <h3 className="new_products">New Products</h3>
       <h6 className="new_products_link">
-        <Link to="/allproduects" >see all new Products</Link>
+        <Link to={ROUTE.ALLPRODUCT} >see all new Products</Link>
       </h6>
 
 

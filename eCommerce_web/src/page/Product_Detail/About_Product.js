@@ -1,15 +1,22 @@
-import Header from "../../corelayout/Header";
-import Footer from "../../corelayout/Footer";
-
-
-const About_Product = () =>{
-
-    return (
-        <>
-        <Header/>
-        <Footer/>
-        </>
-    )
-
-}
-export default About_Product();
+const About_Product = (props) => {
+  console.log("about----props", props);
+  return (
+    <>
+      <div>
+        <div className="about_page">
+          {/* <h1 className="Product_name">{props.productid.product_name}</h1>
+          <p className="product_description">{props.productdata.description}</p> */}
+        </div>
+        <div className="about_page_image">
+          <div className="icon-about">
+            <img className="icon-about-1" src="http://localhost:3000/images/icon/like.png" />
+            <img className="icon-about-2" src="http://localhost:3000/images/icon/benchmar.png" />
+            <img className="icon-about-3" src="http://localhost:3000/images/icon/shared.png" />
+          </div>
+          {/* <img className="about_page_in_image" src={props.productdata.image} /> */}
+        </div>
+        
+      </div>
+    </>
+  );
+}; export default About_Product();

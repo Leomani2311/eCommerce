@@ -4,11 +4,15 @@ import Header from "../../corelayout/Header";
 import Footer from "../../corelayout/Footer";
 import All_prodcts from "../Allproducts";
 import { Link } from "react-router-dom";
+// import About_Product from "./About_Product";
+// import Details from "./Details";
+// import Spaces from "./Spaces"
+
 const CheckboxGroup = Checkbox.Group;
 
 
 //*  -------- About - Details - Spaces-function -----//
-const About_Product = props => {
+const About_Product = (props) => {
   console.log("about----props", props.productid);
   return (
     <>
@@ -25,20 +29,20 @@ const About_Product = props => {
           </div>
           <img className="about_page_in_image" src={props.productid.image} />
         </div>
+        
       </div>
     </>
   );
 };
 
-const Details = props => {
+const Details = (props) => {
   console.log("Details----props", props.productid);
 
-  const detailsArray = props.productid.details.split("zzz");
+  const detailsArray = props.productid.details.split("<br>");
   const detailsObject = {};
 
   detailsArray.forEach(detail => {
-    const [key, ...value] = detail.split(":");
-    // const finalValue = value.join(value).trim(); 
+    const [key, ...value] = detail.split(":"); 
     detailsObject[key.trim()] = key;
   });
   console.log("finalValue", detailsObject);
@@ -71,14 +75,14 @@ const Details = props => {
   );
 };
 
-const Spaces = props => {
+const Spaces = (props) => {
   console.log("Space----props", props.productid);
   return (
     <>
       <div>
         <div className="about_page">
           <h1 className="Product_name">{props.productid.product_name}</h1>
-          <p className="product_description">{props.productid.description}</p>
+          
         </div>
         <div className="about_page_image">
           <div className="icon-about">
@@ -117,7 +121,7 @@ const option = ['left','right'];
 
 
 //*  -------------- main function ------------//
-const Index = props => {
+const Index = (props) => {
   console.log("props....c", props.productid);
 //* ------ Button Set inside the tab ------- //
   const [position, setPosition] = useState(['left', 'right']);
@@ -165,6 +169,11 @@ const Index = props => {
           items={items}
           tabBarStyle={{ textDecoration: 'none'}}
         />
+      </div >
+      <div className="extrainfo">
+        <div className="left-sadow" />
+        <div className="scroll-img" />
+        <div className="right-sadow" />
       </div>
       <Footer />
     </>
@@ -172,3 +181,7 @@ const Index = props => {
 };
 export default Index;
 //* ---------- main function - END -------------------//
+
+
+
+

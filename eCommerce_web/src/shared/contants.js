@@ -54,7 +54,7 @@ const productData =[
     "EX DISPLAY : MSI MPG Trident 3 10SC-005AU Intel i7 10700F, 2060 SUPER, 16GB RAM, 512GB SSD, 2TB HDD, Windows 10 Home, Gaming Keyboard and Mouse 3 Years Warranty Gaming Desktop",
   image: image_url+"images/image 30.png",
   product_name:"MSI MPG Trident 1",
-  details : "Intel Core i7-10700Fzzz Intel H410zzz WHITEzzz NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6zzz SO-DIMM 16GB (16GB x 1) DDR4 2666MHzzz 2 total slots (64GB Max)zzz 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPMzzz Gaming Keyboard GK30 + Gaming Mouse GM11zzz 3.5 HDD (0/0), 2.5 HDDzzzSSD(1/0), M.2 (1/0)zzz Intel WGI219Vethernet (10/100/1000M)zzz AX200 (WIFI 6)+BT5.1zzz PSU 330Wzzz Fan Cooler", 
+  details : "Intel Core i7-10700F<br> Intel H410<br> WHITE<br> NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6<br> SO-DIMM 16GB (16GB x 1) DDR4 2666MH<br> 2 total slots (64GB Max)<br> 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPM<br> Gaming Keyboard GK30 + Gaming Mouse GM11<br> 3.5 HDD (0/0), 2.5 HDD<br>SSD(1/0), M.2 (1/0)<br> Intel WGI219Vethernet (10/100/1000M)<br> AX200 (WIFI 6)+BT5.1<br> PSU 330W<br> Fan Cooler", 
 },
 {
   id:2,
@@ -64,7 +64,7 @@ const productData =[
     "EX DISPLAY : MSI MPG Trident 3 10SC-005AU Intel i7 10700F, 2060 SUPER, 16GB RAM, 512GB SSD, 2TB HDD, Windows 10 Home, Gaming Keyboard and Mouse 3 Years Warranty Gaming Desktop",
   image:image_url+ "images/image 27.png",
   product_name:"MSI MPG Trident 2",
-  details : "Intel Core i7-10700Fzzz Intel H410zzz WHITEzzz NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6zzz SO-DIMM 16GB (16GB x 1) DDR4 2666MHzzz 2 total slots (64GB Max)zzz 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPMzzz Gaming Keyboard GK30 + Gaming Mouse GM11zzz 3.5 HDD (0/0), 2.5 HDDzzzSSD(1/0), M.2 (1/0)zzz Intel WGI219Vethernet (10/100/1000M)zzz AX200 (WIFI 6)+BT5.1zzz PSU 330Wzzz Fan Cooler",
+  details : "Intel Core i7-10700F<br> Intel H410<br> WHITE<br> NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6<br> SO-DIMM 16GB (16GB x 1) DDR4 2666MH<br> 2 total slots (64GB Max)<br> 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPM<br> Gaming Keyboard GK30 + Gaming Mouse GM11<br> 3.5 HDD (0/0), 2.5 HDD<br>SSD(1/0), M.2 (1/0)<br> Intel WGI219Vethernet (10/100/1000M)<br> AX200 (WIFI 6)+BT5.1<br> PSU 330W<br> Fan Cooler",
 },
 {
   id:3,
@@ -74,7 +74,7 @@ const productData =[
     "EX DISPLAY : MSI MPG Trident 3 10SC-005AU Intel i7 10700F, 2060 SUPER, 16GB RAM, 512GB SSD, 2TB HDD, Windows 10 Home, Gaming Keyboard and Mouse 3 Years Warranty Gaming Desktop",
   image: image_url+"images/image 28.png",
   product_name:"MSI MPG Trident 3",
-  details : "Intel Core i7-10700Fzzz Intel H410zzz WHITEzzz NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6zzz SO-DIMM 16GB (16GB x 1) DDR4 2666MHzzz 2 total slots (64GB Max)zzz 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPMzzz Gaming Keyboard GK30 + Gaming Mouse GM11zzz 3.5 HDD (0/0), 2.5 HDDzzzSSD(1/0), M.2 (1/0)zzz Intel WGI219Vethernet (10/100/1000M)zzz AX200 (WIFI 6)+BT5.1zzz PSU 330Wzzz Fan Cooler",
+  details : "Intel Core i7-10700F<br> Intel H410<br> WHITE<br> NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6<br> SO-DIMM 16GB (16GB x 1) DDR4 2666MH<br> 2 total slots (64GB Max)<br> 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPM<br> Gaming Keyboard GK30 + Gaming Mouse GM11<br> 3.5 HDD (0/0), 2.5 HDD<br>SSD(1/0), M.2 (1/0)<br> Intel WGI219Vethernet (10/100/1000M)<br> AX200 (WIFI 6)+BT5.1<br> PSU 330W<br> Fan Cooler",
 },
 {
   id:4,
@@ -84,7 +84,7 @@ const productData =[
     "EX DISPLAY : MSI MPG Trident 3 10SC-005AU Intel i7 10700F, 2060 SUPER, 16GB RAM, 512GB SSD, 2TB HDD, Windows 10 Home, Gaming Keyboard and Mouse 3 Years Warranty Gaming Desktop",
   image:image_url+ "images/image 27.png",
   product_name:"MSI MPG Trident 4",
-  details : "Intel Core i7-10700Fzzz Intel H410zzz WHITEzzz NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6zzz SO-DIMM 16GB (16GB x 1) DDR4 2666MHzzz 2 total slots (64GB Max)zzz 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPMzzz Gaming Keyboard GK30 + Gaming Mouse GM11zzz 3.5 HDD (0/0), 2.5 HDDzzzSSD(1/0), M.2 (1/0)zzz Intel WGI219Vethernet (10/100/1000M)zzz AX200 (WIFI 6)+BT5.1zzz PSU 330Wzzz Fan Cooler",
+  details : "Intel Core i7-10700F<br> Intel H410<br> WHITE<br> NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6<br> SO-DIMM 16GB (16GB x 1) DDR4 2666MH<br> 2 total slots (64GB Max)<br> 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPM<br> Gaming Keyboard GK30 + Gaming Mouse GM11<br> 3.5 HDD (0/0), 2.5 HDD<br>SSD(1/0), M.2 (1/0)<br> Intel WGI219Vethernet (10/100/1000M)<br> AX200 (WIFI 6)+BT5.1<br> PSU 330W<br> Fan Cooler",
 },
 {
   id:5,
@@ -94,7 +94,7 @@ const productData =[
     "EX DISPLAY : MSI MPG Trident 3 10SC-005AU Intel i7 10700F, 2060 SUPER, 16GB RAM, 512GB SSD, 2TB HDD, Windows 10 Home, Gaming Keyboard and Mouse 3 Years Warranty Gaming Desktop",
   image: image_url+"images/image 27.png",
   product_name:"MSI MPG Trident 5",
-  details : "Intel Core i7-10700Fzzz Intel H410zzz WHITEzzz NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6zzz SO-DIMM 16GB (16GB x 1) DDR4 2666MHzzz 2 total slots (64GB Max)zzz 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPMzzz Gaming Keyboard GK30 + Gaming Mouse GM11zzz 3.5 HDD (0/0), 2.5 HDDzzzSSD(1/0), M.2 (1/0)zzz Intel WGI219Vethernet (10/100/1000M)zzz AX200 (WIFI 6)+BT5.1zzz PSU 330Wzzz Fan Cooler",
+  details : "Intel Core i7-10700F<br> Intel H410<br> WHITE<br> NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6<br> SO-DIMM 16GB (16GB x 1) DDR4 2666MH<br> 2 total slots (64GB Max)<br> 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPM<br> Gaming Keyboard GK30 + Gaming Mouse GM11<br> 3.5 HDD (0/0), 2.5 HDD<br>SSD(1/0), M.2 (1/0)<br> Intel WGI219Vethernet (10/100/1000M)<br> AX200 (WIFI 6)+BT5.1<br> PSU 330W<br> Fan Cooler",
 },
 {
   id:6,
@@ -104,7 +104,7 @@ const productData =[
     "EX DISPLAY : MSI MPG Trident 3 10SC-005AU Intel i7 10700F, 2060 SUPER, 16GB RAM, 512GB SSD, 2TB HDD, Windows 10 Home, Gaming Keyboard and Mouse 3 Years Warranty Gaming Desktop",
   image:image_url+ "images/image 27.png",
   product_name:"MSI MPG Trident 6",
-  details : "Intel Core i7-10700Fzzz Intel H410zzz WHITEzzz NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6zzz SO-DIMM 16GB (16GB x 1) DDR4 2666MHzzz 2 total slots (64GB Max)zzz 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPMzzz Gaming Keyboard GK30 + Gaming Mouse GM11zzz 3.5 HDD (0/0), 2.5 HDDzzzSSD(1/0), M.2 (1/0)zzz Intel WGI219Vethernet (10/100/1000M)zzz AX200 (WIFI 6)+BT5.1zzz PSU 330Wzzz Fan Cooler",
+  details : "Intel Core i7-10700F<br> Intel H410<br> WHITE<br> NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6<br> SO-DIMM 16GB (16GB x 1) DDR4 2666MH<br> 2 total slots (64GB Max)<br> 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPM<br> Gaming Keyboard GK30 + Gaming Mouse GM11<br> 3.5 HDD (0/0), 2.5 HDD<br>SSD(1/0), M.2 (1/0)<br> Intel WGI219Vethernet (10/100/1000M)<br> AX200 (WIFI 6)+BT5.1<br> PSU 330W<br> Fan Cooler",
 },
 {
   id:7,
@@ -114,7 +114,7 @@ const productData =[
     "EX DISPLAY : MSI MPG Trident 3 10SC-005AU Intel i7 10700F, 2060 SUPER, 16GB RAM, 512GB SSD, 2TB HDD, Windows 10 Home, Gaming Keyboard and Mouse 3 Years Warranty Gaming Desktop",
   image:image_url+ "images/MSI_Laptops/Msi_laptops_1.png",
   product_name:"MSI MPG Trident 7",
-  details : "Intel Core i7-10700Fzzz Intel H410zzz WHITEzzz NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6zzz SO-DIMM 16GB (16GB x 1) DDR4 2666MHzzz 2 total slots (64GB Max)zzz 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPMzzz Gaming Keyboard GK30 + Gaming Mouse GM11zzz 3.5 HDD (0/0), 2.5 HDDzzzSSD(1/0), M.2 (1/0)zzz Intel WGI219Vethernet (10/100/1000M)zzz AX200 (WIFI 6)+BT5.1zzz PSU 330Wzzz Fan Cooler",
+  details : "Intel Core i7-10700F<br> Intel H410<br> WHITE<br> NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6<br> SO-DIMM 16GB (16GB x 1) DDR4 2666MH<br> 2 total slots (64GB Max)<br> 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPM<br> Gaming Keyboard GK30 + Gaming Mouse GM11<br> 3.5 HDD (0/0), 2.5 HDD<br>SSD(1/0), M.2 (1/0)<br> Intel WGI219Vethernet (10/100/1000M)<br> AX200 (WIFI 6)+BT5.1<br> PSU 330W<br> Fan Cooler",
 },
 {
   id:8,
@@ -124,7 +124,7 @@ const productData =[
     "EX DISPLAY : MSI MPG Trident 3 10SC-005AU Intel i7 10700F, 2060 SUPER, 16GB RAM, 512GB SSD, 2TB HDD, Windows 10 Home, Gaming Keyboard and Mouse 3 Years Warranty Gaming Desktop",
   image:image_url+ "images/MSI_Laptops/Msi_laptops_2.png",
   product_name:"MSI MPG Trident 8",
-  details : "Intel Core i7-10700Fzzz Intel H410zzz WHITEzzz NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6zzz SO-DIMM 16GB (16GB x 1) DDR4 2666MHzzz 2 total slots (64GB Max)zzz 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPMzzz Gaming Keyboard GK30 + Gaming Mouse GM11zzz 3.5 HDD (0/0), 2.5 HDDzzzSSD(1/0), M.2 (1/0)zzz Intel WGI219Vethernet (10/100/1000M)zzz AX200 (WIFI 6)+BT5.1zzz PSU 330Wzzz Fan Cooler",
+  details : "Intel Core i7-10700F<br> Intel H410<br> WHITE<br> NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6<br> SO-DIMM 16GB (16GB x 1) DDR4 2666MH<br> 2 total slots (64GB Max)<br> 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPM<br> Gaming Keyboard GK30 + Gaming Mouse GM11<br> 3.5 HDD (0/0), 2.5 HDD<br>SSD(1/0), M.2 (1/0)<br> Intel WGI219Vethernet (10/100/1000M)<br> AX200 (WIFI 6)+BT5.1<br> PSU 330W<br> Fan Cooler",
 },
 {
   id:9,
@@ -134,7 +134,7 @@ const productData =[
     "EX DISPLAY : MSI MPG Trident 3 10SC-005AU Intel i7 10700F, 2060 SUPER, 16GB RAM, 512GB SSD, 2TB HDD, Windows 10 Home, Gaming Keyboard and Mouse 3 Years Warranty Gaming Desktop",
   image:image_url+ "images/MSI_Laptops/Msi_laptops_3.png",
   product_name:"MSI MPG Trident 9",
-  details : "Intel Core i7-10700Fzzz Intel H410zzz WHITEzzz NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6zzz SO-DIMM 16GB (16GB x 1) DDR4 2666MHzzz 2 total slots (64GB Max)zzz 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPMzzz Gaming Keyboard GK30 + Gaming Mouse GM11zzz 3.5 HDD (0/0), 2.5 HDDzzzSSD(1/0), M.2 (1/0)zzz Intel WGI219Vethernet (10/100/1000M)zzz AX200 (WIFI 6)+BT5.1zzz PSU 330Wzzz Fan Cooler",
+  details : "Intel Core i7-10700F<br> Intel H410<br> WHITE<br> NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6<br> SO-DIMM 16GB (16GB x 1) DDR4 2666MH<br> 2 total slots (64GB Max)<br> 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPM<br> Gaming Keyboard GK30 + Gaming Mouse GM11<br> 3.5 HDD (0/0), 2.5 HDD<br>SSD(1/0), M.2 (1/0)<br> Intel WGI219Vethernet (10/100/1000M)<br> AX200 (WIFI 6)+BT5.1<br> PSU 330W<br> Fan Cooler",
 },
 {
   id:10,
@@ -144,7 +144,7 @@ const productData =[
     "EX DISPLAY : MSI MPG Trident 3 10SC-005AU Intel i7 10700F, 2060 SUPER, 16GB RAM, 512GB SSD, 2TB HDD, Windows 10 Home, Gaming Keyboard and Mouse 3 Years Warranty Gaming Desktop",
   image:image_url+ "images/MSI_Laptops/Msi_laptops_4.png",
   product_name:"MSI MPG Trident 10",
-  details : "Intel Core i7-10700Fzzz Intel H410zzz WHITEzzz NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6zzz SO-DIMM 16GB (16GB x 1) DDR4 2666MHzzz 2 total slots (64GB Max)zzz 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPMzzz Gaming Keyboard GK30 + Gaming Mouse GM11zzz 3.5 HDD (0/0), 2.5 HDDzzzSSD(1/0), M.2 (1/0)zzz Intel WGI219Vethernet (10/100/1000M)zzz AX200 (WIFI 6)+BT5.1zzz PSU 330Wzzz Fan Cooler",
+  details : "Intel Core i7-10700F<br> Intel H410<br> WHITE<br> NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6<br> SO-DIMM 16GB (16GB x 1) DDR4 2666MH<br> 2 total slots (64GB Max)<br> 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPM<br> Gaming Keyboard GK30 + Gaming Mouse GM11<br> 3.5 HDD (0/0), 2.5 HDD<br>SSD(1/0), M.2 (1/0)<br> Intel WGI219Vethernet (10/100/1000M)<br> AX200 (WIFI 6)+BT5.1<br> PSU 330W<br> Fan Cooler",
 },
 {
   id:11,
@@ -154,7 +154,7 @@ const productData =[
     "EX DISPLAY : MSI MPG Trident 3 10SC-005AU Intel i7 10700F, 2060 SUPER, 16GB RAM, 512GB SSD, 2TB HDD, Windows 10 Home, Gaming Keyboard and Mouse 3 Years Warranty Gaming Desktop",
   image:image_url+ "images/MSI_Laptops/Msi_laptops_5.png",
   product_name:"MSI MPG Trident 11",
-  details : "Intel Core i7-10700Fzzz Intel H410zzz WHITEzzz NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6zzz SO-DIMM 16GB (16GB x 1) DDR4 2666MHzzz 2 total slots (64GB Max)zzz 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPMzzz Gaming Keyboard GK30 + Gaming Mouse GM11zzz 3.5 HDD (0/0), 2.5 HDDzzzSSD(1/0), M.2 (1/0)zzz Intel WGI219Vethernet (10/100/1000M)zzz AX200 (WIFI 6)+BT5.1zzz PSU 330Wzzz Fan Cooler",
+  details : "Intel Core i7-10700F<br> Intel H410<br> WHITE<br> NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6<br> SO-DIMM 16GB (16GB x 1) DDR4 2666MH<br> 2 total slots (64GB Max)<br> 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPM<br> Gaming Keyboard GK30 + Gaming Mouse GM11<br> 3.5 HDD (0/0), 2.5 HDD<br>SSD(1/0), M.2 (1/0)<br> Intel WGI219Vethernet (10/100/1000M)<br> AX200 (WIFI 6)+BT5.1<br> PSU 330W<br> Fan Cooler",
 },
 {
   id:12,
@@ -164,7 +164,7 @@ const productData =[
     "EX DISPLAY : MSI MPG Trident 3 10SC-005AU Intel i7 10700F, 2060 SUPER, 16GB RAM, 512GB SSD, 2TB HDD, Windows 10 Home, Gaming Keyboard and Mouse 3 Years Warranty Gaming Desktop",
   image:image_url+ "images/Custome_Builds_img/Custome_Builds_1.png",
   product_name:"MSI MPG Trident 12",
-  details : "Intel Core i7-10700Fzzz Intel H410zzz WHITEzzz NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6zzz SO-DIMM 16GB (16GB x 1) DDR4 2666MHzzz 2 total slots (64GB Max)zzz 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPMzzz Gaming Keyboard GK30 + Gaming Mouse GM11zzz 3.5 HDD (0/0), 2.5 HDDzzzSSD(1/0), M.2 (1/0)zzz Intel WGI219Vethernet (10/100/1000M)zzz AX200 (WIFI 6)+BT5.1zzz PSU 330Wzzz Fan Cooler",
+  details : "Intel Core i7-10700F<br> Intel H410<br> WHITE<br> NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6<br> SO-DIMM 16GB (16GB x 1) DDR4 2666MH<br> 2 total slots (64GB Max)<br> 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPM<br> Gaming Keyboard GK30 + Gaming Mouse GM11<br> 3.5 HDD (0/0), 2.5 HDD<br>SSD(1/0), M.2 (1/0)<br> Intel WGI219Vethernet (10/100/1000M)<br> AX200 (WIFI 6)+BT5.1<br> PSU 330W<br> Fan Cooler",
 },
 {
   id:13,
@@ -174,7 +174,7 @@ const productData =[
     "EX DISPLAY : MSI MPG Trident 3 10SC-005AU Intel i7 10700F, 2060 SUPER, 16GB RAM, 512GB SSD, 2TB HDD, Windows 10 Home, Gaming Keyboard and Mouse 3 Years Warranty Gaming Desktop",
   image:image_url+ "images/Custome_Builds_img/Custome_Builds_2.png",
   product_name:"MSI MPG Trident 13",
-  details : "Intel Core i7-10700Fzzz Intel H410zzz WHITEzzz NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6zzz SO-DIMM 16GB (16GB x 1) DDR4 2666MHzzz 2 total slots (64GB Max)zzz 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPMzzz Gaming Keyboard GK30 + Gaming Mouse GM11zzz 3.5 HDD (0/0), 2.5 HDDzzzSSD(1/0), M.2 (1/0)zzz Intel WGI219Vethernet (10/100/1000M)zzz AX200 (WIFI 6)+BT5.1zzz PSU 330Wzzz Fan Cooler",
+  details : "Intel Core i7-10700F<br> Intel H410<br> WHITE<br> NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6<br> SO-DIMM 16GB (16GB x 1) DDR4 2666MH<br> 2 total slots (64GB Max)<br> 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPM<br> Gaming Keyboard GK30 + Gaming Mouse GM11<br> 3.5 HDD (0/0), 2.5 HDD<br>SSD(1/0), M.2 (1/0)<br> Intel WGI219Vethernet (10/100/1000M)<br> AX200 (WIFI 6)+BT5.1<br> PSU 330W<br> Fan Cooler",
 },
 {
   id:14,
@@ -184,7 +184,7 @@ const productData =[
     "EX DISPLAY : MSI MPG Trident 3 10SC-005AU Intel i7 10700F, 2060 SUPER, 16GB RAM, 512GB SSD, 2TB HDD, Windows 10 Home, Gaming Keyboard and Mouse 3 Years Warranty Gaming Desktop",
   image:image_url+ "images/Custome_Builds_img/Custome_Builds_3.png",
   product_name:"MSI MPG Trident 14",
-  details : "Intel Core i7-10700Fzzz Intel H410zzz WHITEzzz NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6zzz SO-DIMM 16GB (16GB x 1) DDR4 2666MHzzz 2 total slots (64GB Max)zzz 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPMzzz Gaming Keyboard GK30 + Gaming Mouse GM11zzz 3.5 HDD (0/0), 2.5 HDDzzzSSD(1/0), M.2 (1/0)zzz Intel WGI219Vethernet (10/100/1000M)zzz AX200 (WIFI 6)+BT5.1zzz PSU 330Wzzz Fan Cooler",
+  details : "Intel Core i7-10700F<br> Intel H410<br> WHITE<br> NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6<br> SO-DIMM 16GB (16GB x 1) DDR4 2666MH<br> 2 total slots (64GB Max)<br> 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPM<br> Gaming Keyboard GK30 + Gaming Mouse GM11<br> 3.5 HDD (0/0), 2.5 HDD<br>SSD(1/0), M.2 (1/0)<br> Intel WGI219Vethernet (10/100/1000M)<br> AX200 (WIFI 6)+BT5.1<br> PSU 330W<br> Fan Cooler",
 },
 {
   id:15,
@@ -194,7 +194,7 @@ const productData =[
     "EX DISPLAY : MSI MPG Trident 3 10SC-005AU Intel i7 10700F, 2060 SUPER, 16GB RAM, 512GB SSD, 2TB HDD, Windows 10 Home, Gaming Keyboard and Mouse 3 Years Warranty Gaming Desktop",
   image: image_url+"images/Custome_Builds_img/Custome_Builds_4.png",
   product_name:"MSI MPG Trident 15",
-  details : "Intel Core i7-10700Fzzz Intel H410zzz WHITEzzz NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6zzz SO-DIMM 16GB (16GB x 1) DDR4 2666MHzzz 2 total slots (64GB Max)zzz 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPMzzz Gaming Keyboard GK30 + Gaming Mouse GM11zzz 3.5 HDD (0/0), 2.5 HDDzzzSSD(1/0), M.2 (1/0)zzz Intel WGI219Vethernet (10/100/1000M)zzz AX200 (WIFI 6)+BT5.1zzz PSU 330Wzzz Fan Cooler",
+  details : "Intel Core i7-10700F<br> Intel H410<br> WHITE<br> NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6<br> SO-DIMM 16GB (16GB x 1) DDR4 2666MH<br> 2 total slots (64GB Max)<br> 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPM<br> Gaming Keyboard GK30 + Gaming Mouse GM11<br> 3.5 HDD (0/0), 2.5 HDD<br>SSD(1/0), M.2 (1/0)<br> Intel WGI219Vethernet (10/100/1000M)<br> AX200 (WIFI 6)+BT5.1<br> PSU 330W<br> Fan Cooler",
 },
 {
   id:16,
@@ -204,7 +204,7 @@ const productData =[
     "EX DISPLAY : MSI MPG Trident 3 10SC-005AU Intel i7 10700F, 2060 SUPER, 16GB RAM, 512GB SSD, 2TB HDD, Windows 10 Home, Gaming Keyboard and Mouse 3 Years Warranty Gaming Desktop",
   image:image_url+ "images/Custome_Builds_img/Custome_Builds_5.png",
   product_name:"MSI MPG Trident 16",
-  details : "Intel Core i7-10700Fzzz Intel H410zzz WHITEzzz NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6zzz SO-DIMM 16GB (16GB x 1) DDR4 2666MHzzz 2 total slots (64GB Max)zzz 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPMzzz Gaming Keyboard GK30 + Gaming Mouse GM11zzz 3.5 HDD (0/0), 2.5 HDDzzzSSD(1/0), M.2 (1/0)zzz Intel WGI219Vethernet (10/100/1000M)zzz AX200 (WIFI 6)+BT5.1zzz PSU 330Wzzz Fan Cooler",
+  details : "Intel Core i7-10700F<br> Intel H410<br> WHITE<br> NVIDIA MSI GeForce RTX 2060 SUPER 8GB AERO ITX GDDR6<br> SO-DIMM 16GB (16GB x 1) DDR4 2666MH<br> 2 total slots (64GB Max)<br> 512GB (1 x 512GB) M.2 NVMe PCIe GEN3x4 SSD 2TB (2.5) 5400RPM<br> Gaming Keyboard GK30 + Gaming Mouse GM11<br> 3.5 HDD (0/0), 2.5 HDD<br>SSD(1/0), M.2 (1/0)<br> Intel WGI219Vethernet (10/100/1000M)<br> AX200 (WIFI 6)+BT5.1<br> PSU 330W<br> Fan Cooler",
 },
 ]
 

@@ -13,7 +13,9 @@ import {
   NavLink,
 } from "react-router-dom";
 import { DownOutlined } from "@ant-design/icons";
-import { Dropdown, Space } from "antd";
+import { Button, Dropdown, Space } from "antd";
+
+import { ROUTE } from "../Routes/Routes";
 const items = [
   {
     key: "1",
@@ -71,6 +73,18 @@ const items = [
 
 export default function Header() {
   const [date, setdate] = useState(new Date());
+  const [isLoggedIn,setLoggedIn] = useState(false);
+
+  const handleLogin = () =>{
+    setLoggedIn(true);
+  }
+
+
+  const handleprofile = () => {
+    setLoggedIn(false);
+  }
+
+  
   return (
     <header>
       <div className="date_time_main">
@@ -85,7 +99,7 @@ export default function Header() {
       <nav className="app_nav_bar">
         <div className="navlink_min_div">
 
-        <NavLink className="navlink" to="/">
+        <NavLink className="navlink" to={ROUTE.DASHBOARD}>
         <img src="http://localhost:3000/images/Logo.png"/>
           </NavLink>
          
@@ -103,17 +117,20 @@ export default function Header() {
           <NavLink className="navlink" to="/fqa">
             Networking Devices
           </NavLink>
-          <NavLink className="navlink" to="/">
+          <NavLink className="navlink" to={ROUTE.DASHBOARD}>
             Printers & Scanners
           </NavLink>
-          <NavLink className="navlink" to="/">
+          <NavLink className="navlink" to={ROUTE.DASHBOARD}>
             PC Parts
           </NavLink>
-          <NavLink className="navlink" to="/">
+          <NavLink className="navlink" to={ROUTE.DASHBOARD}>
             All Other Products
           </NavLink>
-          <NavLink className="navlink" to="/">
+          <NavLink className="navlink" to={ROUTE.DASHBOARD}>
             Repairs
+          </NavLink>
+          <NavLink className="login-btn" to ={ROUTE.LOGIN}>
+            <Button>LOGIN</Button>
           </NavLink>
         </div>
       </nav>
