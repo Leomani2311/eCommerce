@@ -1,9 +1,11 @@
-import React from "react";
+import React,{useState} from "react";
 import Header from "../corelayout/Header";
 import Footer from "../corelayout/Footer";
 import { Button, Form, Input } from "antd";
 import { Link } from "react-router-dom";
 import { ROUTE } from "../Routes/Routes";
+import axios from "axios";
+
 
 const Login_page = () => {
   const onFinish = values => {
@@ -12,7 +14,24 @@ const Login_page = () => {
   const onFinishFailed = errorInfo => {
     console.log("Failed:", errorInfo);
   };
-
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [usertype,setUsertype] = useState("");
+  const handleSubmit = async e => {
+    console.log("data_saved", e);
+    e.preventDefault();
+    try {
+      await axios.post("http://localhost:6002/api/users/login", {
+        email,
+        password,
+      })
+      console.log("user registered successfully",email,password);
+      // Navigat('/auth/login')
+    } catch (error) {
+      console.log("error :", error);
+    }
+  };
   return (
     <>
       <div className="d-flex flex-column align-items-center justify-content-center h-100 vh-100 main-loginpage-div">
@@ -41,7 +60,8 @@ const Login_page = () => {
               style={{maxWidth:600}}
               rules={[{ required: true, message: "please enter the mailid" }]}
             >
-              <Input fullwidth style={{ maxWidth: 800 }} type="email" />
+              <Input fullwidth style={{ maxWidth: 800 }} type="email"  value={email}
+                  onChange={e => setEmail(e.target.value)}/>
             </Form.Item>
             <Form.Item
               className="form-password"
@@ -54,7 +74,8 @@ const Login_page = () => {
                 },
               ]}
             >
-              <Input.Password type="password" />
+              <Input.Password type="password"   value={password}
+                  onChange={e => setPassword(e.target.value)}/>
             </Form.Item>
             <Form.Item
               wrapperCol={{
@@ -62,7 +83,7 @@ const Login_page = () => {
                 span: 2,
               }}
             >
-              <Link to="/">
+              <Link  to='/'>
                 <Button className="loginpage-btn" htmlType="submit">
                   Login
                 </Button>

@@ -26,7 +26,7 @@ const Register = () => {
     console.log("data_saved", e);
     e.preventDefault();
     try {
-      await axios.post("http://localhost:3002/api/users/register", {
+      await axios.post("http://localhost:6002/api/users/register", {
         name,
         email,
         password,

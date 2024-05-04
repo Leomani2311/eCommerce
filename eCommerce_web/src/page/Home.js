@@ -19,7 +19,7 @@ export default function Home() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:3002/api/data');
+        const response = await axios.get('http://localhost:3002/api/new_products/new_product');
         setProductData(response.data);
         console.log("manikandan....",productData)
         console.log("manikandan____",response.data[0].description)
